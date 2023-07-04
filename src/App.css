@@ -1,38 +1,70 @@
+/**********************************************
+Task # 3
+Full Name : Pengjun Guo
+Student ID#: 139448229
+Email : pguo9@myseneca.ca
+Section : NAA
+
+Authenticity Declaration: 
+I declare this submission is the result of my own work and has not been. shared with any other student or 3rd party 
+content provider. This submitted. 
+piece of work is entirely of my own creation. 
+***********************************************************************************************
+Date: Jun 27, 2023
+**********************************************/
+
 .App {
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  width: 270px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cart {
+  margin-top: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cart-item {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.cart-item img {
+  width: 70px;
+  height: 58px;
+  object-fit: cover;
+  margin-right: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.item-details {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.subtotal {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 60px;
+  font-size: 12px;
 }
